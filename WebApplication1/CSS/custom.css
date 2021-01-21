@@ -1,15 +1,79 @@
-﻿body {background-color:darkslategrey;
-      color:forestgreen;
+﻿@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Neucha&display=swap');
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Neucha', cursive;
+*/
+
+body {
+    background: url(/Images/ev-miIeeCgN1m8-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Neucha', cursive;
+    font-size: 30px;
+}
+main {
+    background-color: rgba(0, 200, 200, .65);
+    font-family: 'Amatic SC', cursive;
 }
 h1 {
-    background-color: rosybrown;
-    color: darkorange;
-    font-size: 25px;
-    font-style: italic;
-    text-decoration: double;
+    
+    background-color: rgba(50, 165, 200, .40);
+    color: black;
+    outline: thick;
+    outline-color: black;
+    font-size: 40px;
 }
-p {
-    font-style: normal;
-    font-size: 16px;
+footer{
+    font-style:italic;
+    font-size:14px;
+    font-weight:500;
+    color:#121212
 }
-h2.asideHeader {font-family:'Times New Roman', Times, serif}
+
+/*Nav*/
+
+a{
+    color:black;
+}
+
+nav {
+    font-family: 'Amatic SC', cursive;
+    text-align: center
+}
+
+nav ul{
+    background-color:darkslategray;
+    border-style: solid;
+    margin:25px;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:5px;
+}
+
+.selected{
+    background-color: #808080;
+}
+
+.selected a{
+    color:black;
+}
+
+nav li:hover{
+    background-color:#ff2560;
+}
+
+nav a:hover{
+    color:white;
+}
+
+/*Contact*/
+
+.contact{
+    text-align:center;
+    bottom:40px;
+    border:solid;
+    margin-top:6px
+}
+
